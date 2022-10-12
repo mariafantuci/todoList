@@ -5,3 +5,6 @@
 body {
   @apply bg-gray-900 font-sans;
 }
+.todoListDecorationNoResults{
+  @apply before:content-[''] before:flex before:flex-col before:justify-center before:items-center before:rounded-lg before:pt-6 before:px-0 before:pb-16 before:gap-4 before:w-full before:border-t-gray-400 before:border-t
+  }
